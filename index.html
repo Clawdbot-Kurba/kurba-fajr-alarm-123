@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0d1421">
+  <meta name="description" content="Fajr Alarm - Wake up for Fajr with mandatory exercise">
+  <title>Fajr Alarm</title>
+  
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⏰</text></svg>">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Screens will be rendered here -->
+  </div>
+
+  <!-- MediaPipe Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+
+  <!-- App Modules -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
